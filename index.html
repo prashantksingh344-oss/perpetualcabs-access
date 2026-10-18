@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Perpetual Cabs Sign-in</title>
-<meta name="description" content="Every Perpetual Cabs sign-in link in one place: passenger app, office, prices, drivers.">
+<meta name="description" content="Every Perpetual Cabs sign-in link in one place: passenger app, office, prices, drivers, business customers.">
 <meta name="robots" content="noindex">
 <style>
   :root {
@@ -26,7 +26,7 @@
   header h1 { margin: 0; font-size: 1.75rem; letter-spacing: -0.02em; }
   header p { margin: 4px 0 0; color: var(--muted); }
   h2 {
-    margin: 32px 0 10px; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase;
+    margin: 32px 0 10px; font-size: 0.875rem; letter-spacing: 0.08em; text-transform: uppercase;
     color: var(--muted);
   }
   .card {
@@ -37,7 +37,7 @@
   .card strong { font-size: 1.05rem; }
   .card .who { grid-column: 1; color: var(--muted); font-size: 0.92rem; }
   .card .url {
-    grid-column: 1 / -1; font: 0.82rem ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    grid-column: 1 / -1; font: 0.875rem ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
     color: var(--muted); overflow-wrap: anywhere;
   }
   .actions { grid-column: 2; grid-row: 1 / span 2; display: flex; gap: 8px; }
@@ -58,7 +58,7 @@
     border: 1px solid var(--line);
   }
   .qr p { color: var(--muted); font-size: 0.9rem; margin: 8px 0 0; }
-  footer { margin-top: 32px; color: var(--muted); font-size: 0.8rem; text-align: center; }
+  footer { margin-top: 32px; color: var(--muted); font-size: 0.875rem; text-align: center; }
   @media (max-width: 480px) {
     .card { grid-template-columns: 1fr; }
     .actions { grid-column: 1; grid-row: auto; margin-top: 6px; }
@@ -118,9 +118,9 @@
   <h2>Drivers</h2>
   <div class="card">
     <strong>Driver app (Android)</strong>
-    <span class="who">Download and install the driver app, version 1.4.</span>
-    <div class="actions"><a class="open" href="https://web-production-459ef.up.railway.app/downloads/perpetualcabs-driver-1.4.apk">Download</a><button class="copy" type="button">Copy</button></div>
-    <span class="url">https://web-production-459ef.up.railway.app/downloads/perpetualcabs-driver-1.4.apk</span>
+    <span class="who">Download and install the driver app, version 1.7.</span>
+    <div class="actions"><a class="open" href="https://web-production-459ef.up.railway.app/downloads/perpetualcabs-driver-1.7.apk">Download</a><button class="copy" type="button">Copy</button></div>
+    <span class="url">https://web-production-459ef.up.railway.app/downloads/perpetualcabs-driver-1.7.apk</span>
   </div>
   <div class="card">
     <strong>Driver sign-in (browser)</strong>
@@ -128,6 +128,16 @@
     <div class="actions"><a class="open" href="https://web-production-459ef.up.railway.app/app/drive">Open</a><button class="copy" type="button">Copy</button></div>
     <span class="url">https://web-production-459ef.up.railway.app/app/drive</span>
   </div>
+
+  <h2>Business customers (operators)</h2>
+  <div class="card">
+    <strong>Book for your employees or a group</strong>
+    <span class="who">Companies and tour operators. Sign in to the passenger app and book with each traveller's name and phone, or call the office.</span>
+    <div class="actions"><a class="open" href="https://web-production-459ef.up.railway.app/app/">Open</a><button class="copy" type="button">Copy</button></div>
+    <span class="url">https://web-production-459ef.up.railway.app/app/</span>
+  </div>
+  <p class="note">A business dashboard is coming: team logins, group bookings across several cars, and monthly
+    invoices. Its link will appear here.</p>
 
   <section class="qr">
     <img src="qr.png" alt="QR code for this page">
